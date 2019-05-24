@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@android:id/tabcontent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="54dip" >
+    </FrameLayout>
+
+    <TabWidget
+        android:id="@android:id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+    </TabWidget>
+
+    <RadioGroup
+        android:id="@+id/bottom_menu_rg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/bottom_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/bottom_menu_home_radio"
+            style="@style/bottom_menu_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dip"
+            android:drawableTop="@drawable/bottom_home_bn_style"
+            android:tag="bottom_menu_home_radio"
+            android:text="@string/home_tv" />
+
+        <RadioButton
+            android:id="@+id/bottom_menu_style_radio"
+            style="@style/bottom_menu_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dip"
+            android:drawableTop="@drawable/bottom_style_bn_style"
+            android:tag="bottom_menu_home_radio"
+            android:text="@string/style_tv" />
+
+        <RadioButton
+            android:id="@+id/bottom_menu_cam_radio"
+            style="@style/bottom_menu_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dip"
+            android:drawableTop="@drawable/bottom_cam_bn_style"
+            android:tag="bottom_menu_home_radio" />
+
+        <RadioButton
+            android:id="@+id/bottom_menu_shopping_radio"
+            style="@style/bottom_menu_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dip"
+            android:drawableTop="@drawable/bottom_shopping_bn_style"
+            android:tag="bottom_menu_home_radio"
+            android:text="@string/shopping_tv" />
+
+        <RadioButton
+            android:id="@+id/bottom_menu_show_radio"
+            style="@style/bottom_menu_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dip"
+            android:drawableTop="@drawable/bottom_show_bn_style"
+            android:tag="bottom_menu_home_radio"
+            android:text="@string/show_tv" />
+    </RadioGroup>
+
+</TabHost>

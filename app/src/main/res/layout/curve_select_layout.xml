@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:id="@android:id/tabhost"
+
+    android:background="@drawable/background2">
+    <!--app:tabIndicatorFullWidth="false"-->
+    <LinearLayout
+        android:layout_marginTop="0dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+    <!--<include layout="@layout/contact_title_layout" />-->
+
+        <TabWidget
+            android:weightSum="0"
+            android:id="@android:id/tabs"
+            android:tabStripEnabled="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        </TabWidget>
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:id="@android:id/tabcontent">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/tab01">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="请选择鸡舍编号"/>
+
+                    <Spinner
+                        android:id="@+id/room1"
+                        android:layout_width="200dp"
+                        android:layout_height="65px"
+                        android:layout_marginLeft="75px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="7px"
+                        android:drawSelectorOnTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_weight="5.58" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="请选择环境参数"/>
+
+                    <Spinner
+                        android:id="@+id/node1"
+                        android:layout_width="200dp"
+                        android:layout_height="65px"
+                        android:layout_marginLeft="75px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="3px"
+                        android:drawSelectorOnTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@id/room1"
+                        android:layout_weight="5.03" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/tab02">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:textSize="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="请选择鸡舍编号"/>
+
+                    <Spinner
+                        android:id="@+id/room2"
+                        android:layout_width="200dp"
+                        android:layout_height="65px"
+                        android:layout_marginLeft="75px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="7px"
+                        android:drawSelectorOnTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_weight="5.58" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:textSize="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="请选择环境参数"/>
+
+                    <Spinner
+                        android:id="@+id/node2"
+                        android:layout_width="200dp"
+                        android:layout_height="65px"
+                        android:layout_marginLeft="75px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="3px"
+                        android:drawSelectorOnTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@id/room2"
+                        android:layout_weight="5.03" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/tab03">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:textSize="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="请选择鸡舍编号"/>
+
+                    <Spinner
+                        android:id="@+id/room3"
+                        android:layout_width="200dp"
+                        android:layout_height="65px"
+                        android:layout_marginLeft="75px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="7px"
+                        android:drawSelectorOnTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_weight="5.58" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:textSize="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="请选择环境参数"/>
+
+                    <Spinner
+                        android:id="@+id/node3"
+                        android:layout_width="200dp"
+                        android:layout_height="65px"
+                        android:layout_marginLeft="75px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="3px"
+                        android:drawSelectorOnTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@id/room3"
+                        android:layout_weight="5.03" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/tab04">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:textSize="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="请选择鸡舍编号"/>
+
+                    <Spinner
+                        android:id="@+id/room4"
+                        android:layout_width="200dp"
+                        android:layout_height="65px"
+                        android:layout_marginLeft="75px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="7px"
+                        android:drawSelectorOnTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_weight="5.58" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:textSize="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="请选择环境参数"/>
+
+                    <Spinner
+                        android:id="@+id/node4"
+                        android:layout_width="200dp"
+                        android:layout_height="65px"
+                        android:layout_marginLeft="75px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginTop="3px"
+                        android:drawSelectorOnTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@id/room4"
+                        android:layout_weight="5.03" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/chaxun"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:text="查询"
+            android:background="@drawable/queding"
+            android:textColor="@color/white"
+            android:clickable="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+             />
+        <!--android:layout_weight="0.54"-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <com.example.fr.baimajidi.LineChart
+                android:id="@+id/line_chart_week"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/white"
+                app:DarkColor="@color/blue_dark"
+                app:LightColor="@color/blue"
+                app:ShapeColor="@color/blue_light" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</TabHost>

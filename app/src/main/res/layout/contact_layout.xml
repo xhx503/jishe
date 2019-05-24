@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E1E0DE"
+    android:orientation="vertical" >
+
+
+
+    <RelativeLayout
+        android:id="@+id/title_ry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <include layout="@layout/contact_title_layout" />
+    </RelativeLayout>
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/con"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/footbar_layout_ly"
+        android:layout_below="@id/title_ry" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/contact_select_layout" />
+        </ScrollView>
+    </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/footbar_layout_ly"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" >
+
+            <include layout="@layout/home_footbar_layout" />
+        </LinearLayout>
+
+
+
+</RelativeLayout>

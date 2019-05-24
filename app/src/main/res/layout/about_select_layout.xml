@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20.0dip"
+            android:background="@drawable/donghuaji" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="智能鸡舍管理终端 1.0.1"
+            android:textColor="#707070"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:layout_marginTop="20.0dip"
+        android:paddingBottom="10.0dip"
+        android:paddingTop="10.0dip" >
+
+        <TextView
+            android:id="@+id/jieshao"
+            android:layout_width="wrap_content"
+            android:layout_height="150dip"
+            android:text="        沈明霞教授项目团队秉承江苏省现代设施农业技术与装备工程实验室的学术和科研积淀,设计并实施智能农业物联网平台,该平台涵盖集前沿和实用为一体的农业无线传感器网络技术、以太网和移动网络无缝衔接技术、海量数据融合和处理技术、标清视频流实时传输技术、智能控制技术等。前端采用短距离无线通讯协议的无线传感器网络(Wireless Sensor Network，WSN),作为一种信息获取和处理技术,无线传感器网络具有节点规模大、体积小、成本低、自组网等特点。管理平台依据软件工程思想综合运用远程控制技术、计算机网络通信技术和Web Service技术,基于.NET和Android等开发平台，适合对分布式农业信息的综合管理和远程控制。"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</LinearLayout>

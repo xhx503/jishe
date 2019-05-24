@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="#E1E0DE">
+
+    <RelativeLayout
+        android:id="@+id/cure"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/title_ry" >
+
+        <LinearLayout
+            android:id="@+id/chart"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_ry" >
+
+            <include layout="@layout/curve_select_layout" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/footbar_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" >
+
+            <include layout="@layout/home_footbar_layout" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/footbar_layout"
+            android:layout_below="@id/chart" >
+
+            <include layout="@layout/curve_select_layout" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

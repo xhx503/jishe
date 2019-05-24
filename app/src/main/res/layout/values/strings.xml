@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TestUIActivity!</string>
+    <string name="app_name">温室智能管理</string>
+    <string name="login_name">用户登录</string>
+    <string name="home_tv">主页</string>
+    <string name="style_tv">视频监控</string>
+    <string name="picture_tv">历史曲线</string>
+    <string name="shopping_tv">机构控制</string>
+    <string name="show_tv">联系我们</string>
+    <string name="login_tv">登录</string>
+    <string name="regist_tv">注册</string>
+    <string name="index_looks_tv">温度/Temperature</string>
+    <string name="index_looks_info_tv">实时温度信息</string>
+    <string name="index_shopping_tv">湿度/Humidity</string>
+    <string name="index_shopping_info_tv">空气湿度</string>
+    <string name="index_show_tv">二氧化碳浓度/CO2</string>
+    <string name="index_show_info_tv">空气中CO2浓度</string>
+    <string name="index_search_tv">光照强度/Light Intensity</string>
+    <string name="index_search_info_tv">当前光照强度</string>
+    <string name="index_browse_tv">综合信息查询/Search</string>
+    <string name="index_browse_info_tv">查询温室历史参数</string>
+    <string name="index_last_tv">扫一扫/SCAN</string>
+    <string name="index_last_info_tv">二维码扫描</string>
+    <string name="index_looks_tv1">风机控制</string>
+    <string name="index_looks_info_tv1">控制风机的开关状态</string>
+    <string name="index_shopping_tv1">湿帘控制</string>
+    <string name="index_shopping_info_tv1">控制湿帘的状态</string>
+    <string name="index_show_tv1">热泵控制</string>
+    <string name="index_show_info_tv1">温室内的温度调节</string>
+    <string name="index_search_tv1">内外遮幕控制</string>
+    <string name="index_search_info_tv1">控制温室的光照强度</string>
+    <string name="index_browse_tv1">自动切换</string>
+    <string name="index_browse_info_tv1">切换控制权</string>
+    <string name="index_last_tv1">备用</string>
+    <string name="index_last_info_tv1">备用</string>
+    <string name="soft_update_no">已经是最新版本</string>
+    <string name="soft_update_title">软件更新</string>
+    <string name="soft_update_info">检测到新版本，立即更新吗？</string>
+    <string name="soft_update_updatebtn">更新</string>
+    <string name="soft_update_later">稍后更新</string>
+    <string name="soft_updating">正在更新</string>
+    <string name="soft_update_cancel">取消</string>
+    <string name="strInputAccHint">UserName</string>
+    <string name="strInputAccpp">Password</string>
+    <string name="strAccInputLabel">帐号</string>
+    <string name="strPswInputLabel">密码</string>
+    <string name="opt_remember">记住密码</string>
+    <string name="login">登 录</string>
+    <string name="opt_autologin">自动登录</string>
+    <string name="opt_hideLogin">隐身登录</string>
+    <string name="opt_silent">静音登录</string>
+    <string name="opt_openVibra">开启振动</string>
+    <string name="opt_acceptGroupMsg">接收群消息</string>
+    <string name="quit">退  出 </string>
+
+</resources>

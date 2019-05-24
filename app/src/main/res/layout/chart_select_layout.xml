@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/ringagain1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/contact_select_list_style"
+            android:gravity="center_vertical"
+            android:padding="10dip"
+            android:text="   信息查询（点击查看）"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:drawableLeft="@drawable/xinxichaxun"/>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="abc">
+        <item>0601</item>
+        <item>0601</item>
+        <item>0601</item>
+        <item>0601</item>
+        <item>0601</item>
+        <item>0601</item>
+        <item>0601</item>
+        <item>0601</item>
+        <item>0601</item>
+        <item>0601</item>
+        <item>0601</item>
+        <item>0601</item>
+        <item>0601</item>
+        <item>0601</item>
+        <item>0601</item>
+        <item>0601</item>
+        <item>0601</item>
+    </string-array>
+    <string-array name="ctype">
+        <item>一号鸡舍</item>
+        <item>二号鸡舍</item>
+        <item>三号鸡舍</item>
+        <item>四号鸡舍</item>
+        <item>五号鸡舍</item>
+        <item>六号鸡舍</item>
+        <item>七号鸡舍</item>
+        <item>八号鸡舍</item>
+
+    </string-array>
+    <string-array name="spingarr">
+        <item>一号鸡舍</item>
+        <item>二号鸡舍</item>
+        <item>三号鸡舍</item>
+        <item>四号鸡舍</item>
+        <item>五号鸡舍</item>
+        <item>六号鸡舍</item>
+        <item>七号鸡舍</item>
+        <item>八号鸡舍</item>
+
+    </string-array>
+</resources>

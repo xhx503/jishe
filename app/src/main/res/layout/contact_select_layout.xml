@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/ringagain1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/contact_select_list_style"
+            android:gravity="center_vertical"
+            android:padding="10dip"
+            android:text="   功能介绍"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:drawableLeft="@drawable/gongneng"/>
+
+        <ImageView
+            android:layout_width="6dip"
+            android:layout_height="12dip"
+            android:layout_alignRight="@+id/ringagain1"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:src="@drawable/home_index_arrow" />
+    </RelativeLayout>
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/relativeLayout6"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="3dip"-->
+        <!--android:padding="5dip">-->
+
+        <!--<Button-->
+            <!--android:id="@+id/ringagain6"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:background="@drawable/contact_select_list_style"-->
+            <!--android:drawableLeft="@drawable/zidongkongzhi"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:padding="10dip"-->
+            <!--android:text="   自动控制"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:textSize="15sp" />-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="6dip"-->
+            <!--android:layout_height="12dip"-->
+            <!--android:layout_alignRight="@+id/ringagain6"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginRight="15dip"-->
+            <!--android:src="@drawable/home_index_arrow" />-->
+    <!--</RelativeLayout>-->
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/ringagain2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/contact_select_list_style"
+            android:gravity="center_vertical"
+            android:padding="10dip"
+            android:text="  检查更新"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:drawableLeft="@drawable/jiancha"/>
+
+        <ImageView
+            android:layout_width="6dip"
+            android:layout_height="12dip"
+            android:layout_alignRight="@+id/ringagain2"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:src="@drawable/home_index_arrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/ringagain3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/contact_select_list_style"
+            android:gravity="center_vertical"
+            android:padding="10dip"
+            android:text="   帮助与反馈"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:drawableLeft="@drawable/bangzhu"/>
+
+        <ImageView
+            android:layout_width="6dip"
+            android:layout_height="12dip"
+            android:layout_alignRight="@+id/ringagain3"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:src="@drawable/home_index_arrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/ringagain4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/contact_select_list_style"
+            android:gravity="center_vertical"
+            android:padding="10dip"
+            android:text="   关于鸡场管理终端"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:drawableLeft="@drawable/guanyu"/>
+
+        <ImageView
+            android:layout_width="6dip"
+            android:layout_height="12dip"
+            android:layout_alignRight="@+id/ringagain4"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:src="@drawable/home_index_arrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/ringagain5"
+            android:layout_width="460dip"
+            android:layout_height="50dip"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/click_background"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="退出当前账号"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+</LinearLayout>

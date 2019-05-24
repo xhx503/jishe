@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/titile_layout_ry"
+    android:layout_width="fill_parent"
+    android:layout_height="43dip"
+    android:background="@drawable/bottom_bg" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="机构控制"
+        android:textColor="#ffffff"
+        android:textSize="17dip" />
+
+</RelativeLayout>

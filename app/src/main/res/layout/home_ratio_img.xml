@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="3dip"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/home_ratio_img_01"
+        android:layout_width="9dip"
+        android:layout_height="9dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/ratio_img_style" />
+
+    <ImageView
+        android:id="@+id/home_ratio_img_02"
+        android:layout_width="9dip"
+        android:layout_height="9dip"
+        android:layout_marginRight="5dip"
+        android:layout_toLeftOf="@id/home_ratio_img_01"
+        android:background="@drawable/ratio_img_style" />
+
+    <ImageView
+        android:id="@+id/home_ratio_img_03"
+        android:layout_width="9dip"
+        android:layout_height="9dip"
+        android:layout_marginRight="5dip"
+        android:layout_toLeftOf="@id/home_ratio_img_02"
+        android:background="@drawable/ratio_img_style" />
+
+    <ImageView
+        android:id="@+id/home_ratio_img_04"
+        android:layout_width="9dip"
+        android:layout_height="9dip"
+        android:layout_marginRight="5dip"
+        android:layout_toLeftOf="@id/home_ratio_img_03"
+        android:background="@drawable/ratio_img_style" />
+
+</RelativeLayout>

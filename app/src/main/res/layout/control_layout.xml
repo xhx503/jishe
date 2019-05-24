@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/app_bg"
+    android:orientation="vertical" >
+    <RelativeLayout
+
+        android:id="@+id/title_ry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <include layout="@layout/control_title_layout" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:contextClickable="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/jijian"/>
+        <TextView
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textSize="28sp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="鸡舍智能环境监控平台"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="当前鸡舍"/>
+        <Spinner
+
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:entries="@array/spingarr"
+
+            />
+    </LinearLayout>
+    <!-- 一号风机控制 -->
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="70dp"
+        android:id="@+id/layout02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/tv02_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="一号风机:"
+            android:textColor="#0E0D0D"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:layout_marginLeft="20dp"
+            android:id="@+id/radioGroup02_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <RadioButton
+
+                android:id="@+id/fengshan_01_on"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="启动"
+                android:textColor="#0E0D0D" />
+
+            <RadioButton
+                android:layout_marginLeft="10dp"
+                android:id="@+id/fengshan_01_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="停止"
+                android:textColor="#0E0D0D" />
+        </RadioGroup>
+    </LinearLayout>
+    <!-- 二号风机控制 -->
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="70dp"
+        android:id="@+id/layout03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/tv03_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="二号风机:"
+            android:textColor="#0E0D0D"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:layout_marginLeft="20dp"
+            android:id="@+id/radioGroup03_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <RadioButton
+
+                android:id="@+id/fengshan_02_on"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="启动"
+                android:textColor="#0E0D0D" />
+
+            <RadioButton
+                android:layout_marginLeft="10dp"
+                android:id="@+id/fengshan_02_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="停止"
+                android:textColor="#0E0D0D" />
+        </RadioGroup>
+    </LinearLayout>
+    <!-- 湿帘控制 -->
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="70dp"
+        android:id="@+id/layout04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/tv04_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="湿帘开关:"
+            android:textColor="#0E0D0D"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:layout_marginLeft="20dp"
+            android:id="@+id/radioGroup04_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <RadioButton
+
+                android:id="@+id/shilian_01_on"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="启动"
+                android:textColor="#0E0D0D" />
+
+            <RadioButton
+                android:layout_marginLeft="10dp"
+                android:id="@+id/shilian_01_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="停止"
+                android:textColor="#0E0D0D" />
+        </RadioGroup>
+    </LinearLayout>
+    <!-- 灯光控制 -->
+
+    <!-- 一号风机控制 -->
+
+    <LinearLayout
+        android:id="@+id/layout05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="40dp"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv05_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="灯光开关:"
+            android:textColor="#0E0D0D"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup05_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+
+                android:id="@+id/dengguang_01_on"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="启动"
+                android:textColor="#0E0D0D" />
+
+            <RadioButton
+                android:id="@+id/dengguang_01_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:checked="true"
+                android:text="停止"
+                android:textColor="#0E0D0D" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout06"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv06_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="翅片管开关:"
+            android:textColor="#0E0D0D"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup06_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+
+                android:id="@+id/chipianguan_01_on"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="启动"
+                android:textColor="#0E0D0D" />
+
+            <RadioButton
+                android:id="@+id/chipianguan_01_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:checked="true"
+                android:text="停止"
+                android:textColor="#0E0D0D" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/cure"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/title_ry" >
+
+        <!--   <LinearLayout
+               android:id="@+id/chart"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content">
+
+               <include layout="@layout/control_select_layout" />
+           </LinearLayout>-->
+
+         <LinearLayout
+               android:id="@+id/footbar_layout"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true" >
+
+           <include layout="@layout/home_footbar_layout" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

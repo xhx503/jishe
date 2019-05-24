@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Baimajidi</string>
+
+    <string name="login_name">用户登录</string>
+    <string name="strInputAccHint">UserName</string>
+    <string name="strInputAccpp">Password</string>
+    <string name="strAccInputLabel">帐号</string>
+    <string name="strPswInputLabel">密码</string>
+    <string name="opt_remember">记住密码</string>
+    <string name="login">登 录</string>
+    <string name="opt_autologin">自动登录</string>
+    <string name="quit">退  出 </string>
+
+    <string name="home_tv">舍内环境</string>
+    <string name="style_tv">舍外环境</string>
+    <string name="picture_tv">历史曲线</string>
+    <string name="shopping_tv">机构控制</string>
+    <string name="show_tv">联系我们</string>
+
+    <string name="login_tv">登录</string>
+    <string name="regist_tv">注册</string>
+    <string name="index_looks_tv">温度/Temperature</string>
+    <string name="index_looks_info_tv">实时温度信息</string>
+    <string name="index_shopping_tv">湿度/Humidity</string>
+    <string name="index_shopping_info_tv">空气湿度</string>
+    <string name="index_show_tv">降雨量/Rainfall</string>
+    <string name="index_show_info_tv">雨水强度</string>
+    <string name="index_search_tv">太阳总辐射/Solar Radiation</string>
+    <string name="index_search_info_tv">当前太阳辐射</string>
+    <string name="index_winddirection_tv">风向/Wind Direction</string>
+    <string name="index_winddirection_info_tv">当前风向</string>
+    <string name="index_windspeed_tv">风速/Wind Speed</string>
+    <string name="index_windspeed_info_tv">当前风速</string>
+    <string name="index_browse_tv">综合信息查询/Search</string>
+    <string name="index_browse_info_tv">查询温室历史参数</string>
+
+    <string name="area_prompt">选择区域</string>
+    <string name="house_prompt">选择房间</string>
+    <string name="PM25">PM2.5/Particulate Matter</string>
+    <string name="PM25_xia">当前鸡舍PM2.5含量</string>
+    <string name="NH3">氨气/NH3</string>
+    <string name="NH3_xia">当前鸡舍氨气含量</string>
+    <string name="CO2">二氧化碳/CO2</string>
+    <string name="CO2_xia">当前鸡舍CO2含量</string>
+</resources>

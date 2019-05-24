@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="area_labels">
+        <item>单栋温室1</item>
+        <item>单栋温室2</item>
+        <item>单栋温室3</item>
+        <item>连栋温室东区</item>
+        <item>连栋温室西区</item>
+    </string-array>
+</resources>

@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dip"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativewendu"
+        android:layout_width="fill_parent"
+        android:layout_height="61dip"
+        android:background="@drawable/home_select_list_style"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/wendu"
+            android:layout_width="31dip"
+            android:layout_height="31dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/temp" />
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/wendu"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/index_looks_tv"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/index_looks_info_tv"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="14dip" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/temp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:text=""
+            android:textColor="@android:color/secondary_text_light"
+            android:textSize="15dip"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeshidu"
+        android:layout_width="match_parent"
+        android:layout_height="61dip"
+        android:background="@drawable/home_select_list_style"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/shidu"
+            android:layout_width="31dip"
+            android:layout_height="31dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/shidu" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/shidu"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/index_shopping_tv"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/index_shopping_info_tv"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="14dip" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/shidu1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:textColor="@android:color/secondary_text_light"
+            android:textSize="15dip"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeco2"
+        android:layout_width="match_parent"
+        android:layout_height="61dip"
+        android:background="@drawable/home_select_list_style"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/turang"
+            android:layout_width="31dip"
+            android:layout_height="31dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/jiangyu2" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/turang"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/index_show_tv"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/index_show_info_tv"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="14dip" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/jiangyu_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:text=""
+            android:textColor="@android:color/secondary_text_light"
+            android:textSize="15dip"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeguangzhao"
+        android:layout_width="match_parent"
+        android:layout_height="61dip"
+        android:background="@drawable/home_select_list_style"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/guangzhao"
+            android:layout_width="31dip"
+            android:layout_height="31dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/guangzhao" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/guangzhao"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/index_search_tv"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/index_search_info_tv"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="14dip" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/sun1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:text=""
+            android:textColor="@android:color/secondary_text_light"
+            android:textSize="15dip"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativewinddirection"
+        android:layout_width="match_parent"
+        android:layout_height="61dip"
+        android:background="@drawable/home_select_list_style"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/winddirection"
+            android:layout_width="31dip"
+            android:layout_height="31dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/fengxiang" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/winddirection"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/index_winddirection_tv"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/index_winddirection_info_tv"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="14dip" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/winddirection_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:text=""
+            android:textColor="@android:color/secondary_text_light"
+            android:textSize="15dip"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativewindspeed"
+        android:layout_width="match_parent"
+        android:layout_height="61dip"
+        android:background="@drawable/home_select_list_style"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/windspeed"
+            android:layout_width="31dip"
+            android:layout_height="31dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/fengsu" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/windspeed"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/index_windspeed_tv"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/index_windspeed_info_tv"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="14dip" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/windspeed_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:text=""
+            android:textColor="@android:color/secondary_text_light"
+            android:textSize="15dip"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/relativesearch"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="61dip"-->
+        <!--android:background="@drawable/home_select_list_style"-->
+        <!--android:clickable="true" >-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/zxing"-->
+            <!--android:layout_width="31dip"-->
+            <!--android:layout_height="31dip"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="5dip"-->
+            <!--android:background="@drawable/index_browse" />-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="5dip"-->
+            <!--android:layout_toRightOf="@id/zxing"-->
+            <!--android:orientation="vertical" >-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/index_browse_tv"-->
+                <!--android:textColor="@android:color/secondary_text_light"-->
+                <!--android:textSize="18dip"-->
+                <!--android:textStyle="bold" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/index_browse_info_tv"-->
+                <!--android:textColor="@android:color/secondary_text_light"-->
+                <!--android:textSize="14dip" />-->
+        <!--</LinearLayout>-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="6dip"-->
+            <!--android:layout_height="12dip"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginRight="15dip"-->
+            <!--android:src="@drawable/home_index_arrow" />-->
+    <!--</RelativeLayout>-->
+
+</LinearLayout>
